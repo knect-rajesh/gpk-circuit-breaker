@@ -1,0 +1,12 @@
+spring.cloud.compatibility-verifier.enabled: false
+resilience4j.circuitbreaker:
+    configs:
+        groupA:
+            registerHealthIndicator: true
+            slidingWindowSize: 200
+
+resilience4j.timelimiter:
+    configs:
+        groupC:
+            timeoutDuration: 10s
+            cancelRunningFuture: true
