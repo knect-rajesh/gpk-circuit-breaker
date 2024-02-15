@@ -1,0 +1,16 @@
+# Maven specific
+target/
+pom.xml.tag
+release.properties
+maven-error.log
+
+# IDE specific
+.settings/
+.project/
+.classpath
+
+# Compiled Java classes
+*.class
+
+# Logs
+*.log
